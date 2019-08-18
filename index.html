@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Eraclis</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/all.css">
+  <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p|Poppins&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+   <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+<body>
+      <div class="container">
+
+        <div class="left-col"></div>
+
+        <div class="right-col"></div>
+
+        <nav>
+          <div class="icon">
+            <i class="fas fa-bars"></i>
+          </div>
+         <div class="nav-logo">
+           <h1>
+             Eraclis
+             <br>
+             papachristou
+           </h1>
+           <div class="nav-logo-p">
+             <p>architects</p>
+           </div>
+         </div>
+
+         <ul>
+           <li><a href="#">HOME</a></li>
+           <li><a href="#">HOME</a></li>
+           <li><a href="#">HOME</a></li>
+           <li><a href="#">HOME</a></li>
+           <li><a href="#">HOME</a></li>
+           <li><a href="#">HOME</a></li>
+           <li><a href="#">HOME</a></li>
+         </ul>
+        </nav>
+        <div class="clear"></div>
+
+        <div class="resize">
+          <div class="icon2">
+            <i class="fas fa-times"></i>
+          </div>
+          <ul>
+            <li class="1"><a href="#">HOME</a></li>
+            <li class="2"><a href="#">HOME</a></li>
+            <li class="3"><a href="#">HOME</a></li>
+            <li class="4"><a href="#">HOME</a></li>
+            <li class="5"><a href="#">HOME</a></li>
+            <li class="6"><a href="#">HOME</a></li>
+            <li class="7"><a href="#">HOME</a></li>
+          </ul>
+        </div>
+
+
+
+        <div class="main">
+          <div class="upper-logo">
+            <p>hospitality & leisure</p>
+          </div>
+          <div class="main-logo">
+            <h1>
+              where fluid form describes
+            <br>
+            function
+          </h1>
+          </div>
+        </div>
+
+
+
+        <div class="sub">
+          <p>ktorides winery</p>
+          <p><span>/</span> permit pending</p>
+        </div>
+
+
+        <aside class="stick fixed">
+          <div class="stick-container">
+            <div class="stick-logo">
+              <h1>cookies policy</h1>
+            </div>
+            <div class="stick-bottom">
+              <div class="stick-explain">
+                <p>Eraclis Papachristou is committed to protecting your personal information. We want our site to be safe and enjoyable. The privacy policy page helps you understand what information we might collect about you and how we use it.</p>
+              </div>
+              <div class="stick-agree">
+                <button type="button" name="button"> i agree</button>
+              </div>
+            </div>
+          </div>
+        </aside>
+        </div>
+
+
+
+        <div class="dummy">
+          <h1>ssssss
+          </h1>
+        </div>
+
+        <script type="text/javascript">
+       TweenMax.from(".left-col", 2, {
+             width: "0%",
+             ease: Expo.easeInOut
+       })
+       TweenMax.from(".right-col", 2, {
+             width: "0%",
+             ease: Expo.easeInOut
+       })
+       TweenMax.from(".nav-logo ", 2, {
+             delay: 2.5,
+             y: 20,
+             opacity: 0,
+             ease: Expo.easeInOut
+       })
+       TweenMax.from(".main h1", 2, {
+             delay: 2.7,
+             y: 20,
+             opacity: 0,
+             ease: Expo.easeInOut
+       })
+       TweenMax.from(".main p", 2, {
+             delay: 2.9,
+             y: 20,
+             opacity: 0,
+             ease: Expo.easeInOut
+       })
+       TweenMax.from(".sub p", 2, {
+             delay: 3.0,
+             y: 20,
+             opacity: 0,
+             ease: Expo.easeInOut
+       })
+       TweenMax.from("aside", 2, {
+             delay: 4.0,
+             y: 20,
+             opacity: 0,
+             ease: Expo.easeInOut
+       })
+
+
+
+
+
+       TweenMax.from(" .1", 2, {
+             delay: 2.5,
+             opacity: 0,
+             ease: Expo.easeInOut
+       })
+       TweenMax.from(" .2", 2, {
+             delay: 2.6,
+             opacity: 0,
+             ease: Expo.easeInOut
+       })
+       TweenMax.from(" .3", 2, {
+             delay: 2.7,
+             opacity: 0,
+             ease: Expo.easeInOut
+       })
+       TweenMax.from(" .4", 2, {
+             delay: 2.8,
+             opacity: 0,
+             ease: Expo.easeInOut
+       })
+       TweenMax.from(" .5", 2, {
+             delay: 2.9,
+             opacity: 0,
+             ease: Expo.easeInOut
+       })
+       TweenMax.from(" .6", 2, {
+             delay: 3.0,
+             opacity: 0,
+             ease: Expo.easeInOut
+       })
+       TweenMax.from(" .7", 2, {
+             delay: 3.1,
+             opacity: 0,
+             ease: Expo.easeInOut
+       })
+$(function(){
+$('.icon').click(function () {
+           $('.resize').slideDown(900);
+       });
+           $('.icon2').click(function () {
+           $('.resize').slideUp(900);
+      });
+
+         });
+            </script>
+</body>
+</html>
