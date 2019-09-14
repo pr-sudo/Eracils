@@ -45,6 +45,7 @@ nav{
   left: 50%;
   transform: translate(-50%);
   border:solid 1px rgba(255,255,255,0.3);
+  position: fixed;
 }
 .nav-logo{
   padding-left: 30px;
@@ -239,10 +240,107 @@ nav .icon{
   margin:45px 0 0 45px;
 }
 .dummy{
-  height: 300px;
+  height: 1000px;
   width: 100%;
-  background: red;
+  margin: 0 auto;
+
   position: absolute;
   top: 100%;
   z-index: -999;
+  box-sizing: border-box;
+}
+.dummy-container{
+  width:100%;
+  max-width: 1200px;
+  height: 600px;
+
+  margin: 0 auto;
+  margin-top: 200px;
+}
+.dummy-left{
+
+  width: 800px;
+  height: 550px;
+  float: right;
+}
+.dummy-contents{
+  
+  width: 100%;
+  height: 200px;
+}
+.dummy-contents p{
+margin: 0;
+}
+.dummy-contents h1{
+  font-size: 50px;
+  margin: 0;
+}
+.dummy-box1{
+  background: #fff;
+  width:500px;
+  height: 400px;
+  float:left;
+  border: 2px solid #333;
+  box-sizing: border-box;
+  border-left: none;
+  border-bottom: none;
+}
+.dummy-box1 p{
+  margin: 20px;
+  line-height: 35px;
+}
+.dummy-box1 a{
+  text-decoration: none;
+  color: gray;
+}
+.title-border {
+display: flex;
+align-items: center;
+}
+.title-border:before {
+border-top: 1px solid;
+content: "";
+flex-grow: 0.1;
+}
+.title-border:after {
+border-top: 1px solid #fff;
+content: "";
+flex-grow: 1;
+}
+.title-border:before {
+margin-right: 1rem;
+}
+.title-border:after {
+margin-left: 1rem;
+}
+}
+.dummy-box2{
+
+  width:100px;
+  height: 200px;
+  float:left;
+}
+
+.dummy-box3{
+
+  width:300px;
+  height: 400px;
+  float:right;
+  border: 2px solid #333;
+  box-sizing: border-box;
+  border-right: none;
+  border-bottom: none;
+}
+.dummy-box3 p{
+  margin: 20px;
+  font-size: 30px;
+}
+.dummy-right{
+  width: 350px;
+  height: 550px;
+  margin: 20px;
+  border: 2px solid #333;
+}
+.dummy-img-exp p{
+  font-size: 30px;
 }
